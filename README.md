@@ -33,9 +33,16 @@ sudo /etc/init.d/apache2 restart
 <h3>Install CURL</h3>
 sudo apt-get install curl
 
+<hr/>
+
 <h3>Install GIT</h3>
 sudo apt-get install git
 
+<hr/>
+
 <h3>Install COMPOSER and set to global</h3>
-curl -sS https://getcomposer.org/installer | php
+curl -sS https://getcomposer.org/installer | php <br/>
 sudo mv composer.phar /usr/local/bin/composer
+
+
+<hr/>
